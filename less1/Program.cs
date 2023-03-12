@@ -2,3 +2,21 @@
 //4 -> да
 //-3 -> нет
 //7 -> нет
+
+
+int n;
+
+Console.WriteLine("Введите число: ");
+string vvod = Console.ReadLine()!;
+n = int.Parse(vvod);
+ 
+if (n % 2 == 0)
+{
+ Console.Write("число четное");
+ Console.Read();
+ }
+ else
+ {
+ Console.Write("число нечетное");
+ Console.Read();
+}
