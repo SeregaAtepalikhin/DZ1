@@ -6,10 +6,12 @@
 int a;
 int b;
 
-Console.Write("Add number1: ");
-int.TryParse(Console.ReadLine()!, out a);
-Console.Write("Add number2: ");
-int.TryParse(Console.ReadLine()!, out b);
+Console.WriteLine("Введите первое число: ");
+string vvod1 = Console.ReadLine()!;
+a = int.Parse(vvod1);
+Console.WriteLine("Введите второе число: ");
+string vvod2 = Console.ReadLine()!;
+b = int.Parse(vvod2);
 
 if (a > b)
 {
