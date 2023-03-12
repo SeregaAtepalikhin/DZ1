@@ -11,7 +11,13 @@ int.TryParse(Console.ReadLine()!, out a);
 Console.Write("Add number2: ");
 int.TryParse(Console.ReadLine()!, out b);
 
+if (a > b)
 {
-
+  Console.Write($"число {a} больше, чем {b}");
+  Console.Read();
 }
-
+else
+{
+  Console.Write($" число {b} больше, чем {a} ");
+  Console.Read();
+}
