@@ -6,19 +6,19 @@
 int n = 0;
 
 Console.WriteLine("Введите число: ");
-string vvod = Console.ReadLine()!;
-n = int.Parse(vvod);
+string vyvod = Console.ReadLine()!;
+n = int.Parse(vyvod);
 
-int delenie = 2;
+int num = 2;
 
 
-while (delenie <=n)
+while (num <=n)
 {
-  if (delenie+1>=n)
-    Console.Write($"{delenie}");
+  if (num+1>=n)
+    Console.Write($"{num}");
   else
-    Console.Write($"{delenie}, ");
-  delenie +=2;
+    Console.Write($"{num}, ");
+  num +=2;
   
 }
 
