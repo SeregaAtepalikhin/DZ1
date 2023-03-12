@@ -12,7 +12,7 @@ n = int.Parse(vvod);
  
 if (n % 2 == 0)
 {
- Console.Write($"число {n} четное");
+ Console.Write($"число \n {n} \n четное");
  Console.Read();
  }
  else
