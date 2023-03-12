@@ -30,4 +30,4 @@ if (n3 > max)
   max = n3;
   }
 
-Console.WriteLine("максимальное число из введенных: " + max);
+Console.WriteLine($"максимальное число из введенных:  {max} ");
