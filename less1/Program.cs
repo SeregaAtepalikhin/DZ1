@@ -12,11 +12,11 @@ n = int.Parse(vvod);
  
 if (n % 2 == 0)
 {
- Console.Write("число четное");
+ Console.Write($"число {n} четное");
  Console.Read();
  }
  else
  {
- Console.Write("число нечетное");
+ Console.Write($"число {n} нечетное");
  Console.Read();
 }
